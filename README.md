@@ -65,7 +65,11 @@ A full-stack notes application built with React, Node.js, Express, and MongoDB.
 
 ## Environment Variables
 
-### Backend (.env)
+### Backend
+1. Create `Backend/.env` from `Backend/.env.example`
+2. Update values as needed for your environment
+
+`.env.example` contents:
 ```
 PORT=5000
 SecriteKey=your_secret_key
